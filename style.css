@@ -1,0 +1,60 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body, html, {
+    background-image: url(assets\images\background4weather.jpeg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.dashboard {
+    text-align: center;
+    background-color: gray;
+    padding: 40px;
+    border-bottom: double black thin;
+}
+h1 {
+    text-align: center;
+    margin: auto;
+    font-size: 300%;
+    font-family: monospace;
+}
+#input {
+    background-color: aliceblue;
+    padding: 30px;
+    margin-top: 10px;
+    width: 30%;
+    display: inline-flex;
+    margin-left: 10px;
+    float: left;
+    
+}
+#searchBtn {
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    padding: 2px;
+    border: solid black
+}
+#wrapper {
+    width: 100%;
+}
+#container1 {
+    margin-top: 10px;
+    padding: 10px 40px;
+    margin-left: 40%;
+    margin-right: 20px;
+    border:thin black solid;
+    list-style: none;
+}
+li {
+    margin-bottom: 10px;
+}
+.history {
+    list-style: none;
+    border: thin double;
+    width: 30%;
+    margin-left: 20px;
+    padding-left: 10px;
+    margin-bottom: 0px;
+}
