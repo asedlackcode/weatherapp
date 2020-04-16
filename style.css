@@ -2,10 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-body, html, {
-    background-image: url(assets\images\background4weather.jpeg.jpg);
-    background-size: cover;
-    background-attachment: fixed;
+html, body {
+    background-image: url(..assets\images/background4weather.jpg);
 }
 .dashboard {
     text-align: center;
