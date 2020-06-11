@@ -1,0 +1,17 @@
+@media only screen and (max-width: 768px) {
+    .card {
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    #top {
+        background-image: url(/assets/images/kumiko-shimizu-lNxMcE8mvIM-unsplash.jpg);
+        background-size: cover;
+        background-position-y: -70px;
+    }
+    #outline {
+        -webkit-text-stroke: 2px black;
+    }
+    #blacktxt {
+        color: black;
+    }
+}
