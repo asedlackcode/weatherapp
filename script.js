@@ -92,7 +92,7 @@ $(document).ready(function () {
 
             var img = $("<img>").attr(
               "src",
-              "https://cors-anywhere.herokuapp.com/https://openweathermap.org/img/w/" +
+              "http://openweathermap.org/img/w/" +
                 data.list[i].weather[0].icon +
                 ".png"
             );
