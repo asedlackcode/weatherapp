@@ -22,7 +22,7 @@ $(document).ready(function () {
     $.ajax({
       type: "GET",
       url:
-        "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q=" +
+        "https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?q=" +
         searchValue +
         "&appid=987e9a9cecb8c841e2f724d39823d991&units=imperial",
       dataType: "json",
@@ -52,7 +52,7 @@ $(document).ready(function () {
         var cardBody = $("<div>").addClass("card-body");
         var img = $("<img>").attr(
           "src",
-          "https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
+          "https://cors-anywhere.herokuapp.com/https://openweathermap.org/img/w/" + data.weather[0].icon + ".png"
         );
 
         title.append(img);
@@ -70,7 +70,7 @@ $(document).ready(function () {
     $.ajax({
       type: "GET",
       url:
-        "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?q=" +
+        "https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/forecast?q=" +
         searchValue +
         "&appid=987e9a9cecb8c841e2f724d39823d991&units=imperial",
       dataType: "json",
@@ -92,7 +92,7 @@ $(document).ready(function () {
 
             var img = $("<img>").attr(
               "src",
-              "https://cors-anywhere.herokuapp.com/http://openweathermap.org/img/w/" +
+              "https://cors-anywhere.herokuapp.com/https://openweathermap.org/img/w/" +
                 data.list[i].weather[0].icon +
                 ".png"
             );
